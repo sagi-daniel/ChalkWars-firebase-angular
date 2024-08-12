@@ -53,21 +53,21 @@ Open your browser and go to [http://localhost:4200] to view the application
 ## Deployment 
 To deploy the application to Firebase Hosting:
 
-- 1. Install Firebase CLI if not already installed:
++ Install Firebase CLI if not already installed:
 ```
 npm install -g firebase-tools
  ```
-- 2. Log in to Firebase:
++ Log in to Firebase:
 ```
 firebase login
  ```
-- 3. Initialize Firebase in the project directory:
++ Initialize Firebase in the project directory:
 ```
 firebase init
  ```
 Follow the prompts to set up Firebase Hosting.
 
-- 4. Deploy the application:
++ Deploy the application:
 ```
 ng build --prod
 firebase deploy
