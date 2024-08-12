@@ -27,7 +27,50 @@ To run this project locally, follow these steps:
 ### 1. Clone the Repository
 
 ``` 
-
 git clone https://github.com/sagi-daniel/ChalkWars-firebase-angular.git
 cd ChalkWars-firebase-angular
 ```
+
+### 2. Install Dependencies
+Make sure you have Node.js and Angular CLI installed. Then, install the project dependencies:
+```
+npm install
+```
+
+### 3. Set Up Firebase
+- Go to Firebase Console [https://console.firebase.google.com].
+- Create a new Firebase project or use an existing one.
+- Register your application and get the Firebase configuration details.
+- Replace the configuration details in src/environments/environment.ts and src/environments/environment.prod.ts.
+
+### 4. Run the Application
+Start the Angular development server:
+```
+ng serve
+```
+Open your browser and go to [http://localhost:4200] to view the application
+
+## Deployment 
+To deploy the application to Firebase Hosting:
+
+- 1. Install Firebase CLI if not already installed:
+```
+npm install -g firebase-tools
+ ```
+- 2. Log in to Firebase:
+```
+firebase login
+ ```
+- 3. Initialize Firebase in the project directory:
+```
+firebase init
+ ```
+Follow the prompts to set up Firebase Hosting.
+
+- 4. Deploy the application:
+```
+ng build --prod
+firebase deploy
+```
+
+
