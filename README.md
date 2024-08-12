@@ -73,4 +73,20 @@ ng build --prod
 firebase deploy
 ```
 
+### Project Structure
 
+- src/: Source files for the Angular application.
+  - app/: Main application folder containing components, services, and modules.
+  - environments/: Environment-specific configuration files.
+  - assets/: Static assets such as images and styles.
+- angular.json: Angular CLI configuration file.
+- firebase.json: Firebase Hosting configuration file.
+- package.json: Project dependencies and scripts.
+
+### Contributing
+Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request with a clear description of the changes.
+
+### Contact
+For any questions or issues, please reach out to:
+- Email: dsagi727@gmail.com
+- GitHub: sagi-daniel
