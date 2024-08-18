@@ -7,6 +7,11 @@
 - **Project URL:** [ChalkWars School Platform](https://echo-angular-project.web.app/login)
 - **GitHub Repository:** [ChalkWars Firebase Angular](https://github.com/sagi-daniel/ChalkWars-firebase-angular.git)
 
+Test Login:
+- email: admin@admin.com
+- password: 1YQpUgqNPt7K
+
+
 ## Features
 
 - **User Authentication:** Secure login and registration using Firebase Authentication.
